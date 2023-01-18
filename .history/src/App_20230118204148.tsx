@@ -54,7 +54,7 @@ const App = () => {
       </div>
       <div className='todoList'>
         {todoList.map((task: ITask, key: number) => {
-          return <TodoTask key={key} task={task} completeTask={completeTask} />;
+          return <TodoTask key={key} task={task} />;
         })}
       </div>
     </div>
